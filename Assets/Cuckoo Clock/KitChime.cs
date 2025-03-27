@@ -23,8 +23,8 @@ public class KitChime : MonoBehaviour
         Debug.Log("Chiming !");
     }
 
-    IEnumerator CuckooBird()
-    {
+    //IEnumerator CuckooBird()
+   // {
         
-    }
+   // }
 }
