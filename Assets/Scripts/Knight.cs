@@ -46,6 +46,7 @@ public class Knight : MonoBehaviour
         if  (bigStep == true)
         {
             step.PlayOneShot(step1);
+
             bigStep = false;
         }
     }
