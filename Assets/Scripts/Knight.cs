@@ -30,7 +30,7 @@ public class Knight : MonoBehaviour
         float direction = Input.GetAxis("Horizontal");
 
         sr.flipX = (direction < 0);
-        animator.SetFloat("movement", Mathf.Abs(direction));
+        animator.SetFloat("movement", Mathf.Abs(direction)); //test
 
         if (Input.GetMouseButtonDown(0))
         {
